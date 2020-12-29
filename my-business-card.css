@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Signika', sans-serif;
+  background: url(assets/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: Courier sans-serif;
+  font-size: 3vh;
+  line-height: 1.4;
+  letter-spacing: 1.3;
+}
+
+#my-profile-card {
+  text-align: center;
+  color: rgb(255,255,255);
+}
+
+#first-row-empty {
+  height:6.25vh;
+  width: 100%;
+}
+
+#profile-block {
+  height: 37.5vh;
+  width: 100%;
+}
+
+#profile-box {
+  
+  height: 100%;
+  width: 25%;
+  float: right;
+}
+
+#my-photo {
+  height: 100%;
+  width: auto;
+  padding-right: 0;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  float: right;
+}
+
+#what {
+  height: 6.25vh;
+  width: 37.5%;
+  float: right;
+}
+
+#my-name {
+  height: 6.25vh;
+  width: 37.5%;
+  float: right;
+}
+
+#middle-row-empty {
+  height: 6.25vh;
+  width: 100%;
+}
+
+#title {
+  height: 6.25vh;
+  width: 100%;
+}
+
+
+#team {
+  height: 6.25vh;
+  width: 25%;
+  float: left;
+}
+
+#services {
+  height: 6.25vh;
+  width: 75%;
+  float: left;
+  
+}
+
+#team-service-row {
+  height: 37.5vh;
+  width: 100%;
+  
+}
+
+#last-row-empty {
+  height: 6.25vh;
+  width: 100%;
+}
+
+#team-box {
+  background: url(assets/mate.jpg);
+  background-size: contain;
+  opacity: 0.8;
+  height: 100%;
+  width: 25%;
+  float: left;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.team-mates {
+  
+  width: 40%;
+  height: auto;
+  border-radius: 50%;
+  filter: grayscale(50%);
+  transition: all 0.5s ease-in-out;
+}
+
+.team-mates:hover {
+  transform: scale(2) rotate(360deg);
+  filter: grayscale(10%);
+}
+
+#member1, #member2, #member3, #member4, #member5, #member6 {
+  height: 50%;
+  width: 33%;
+  float: left;
+}
+
+#member1, #member2 {
+  padding-top: 1vh;
+}
+
+#member3, #member6 {
+  padding-top: 6vh;
+}
+
+#member4, #member5 {
+  padding-top: 10vh;
+}
+
+
+#mate4 {
+  padding-left: 0px;
+}
+
+.service {
+  height: 6.25vh;
+  width: 75%;
+  float: left;
+  text-transform: capitalize;
+ }
+
+a {
+   color: rgba(255,255,255,.7);
+}
+
+h3, #introduction {
+  padding-top: 5vh;
+  padding-left: 10%;
+  padding-right: auto;
+}
+
+#introduction {
+  text-align: justify;
+}
+
+.team-mates:hover {
+  transform: scale(2) rotate(360deg);
+  filter: grayscale(10%);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
