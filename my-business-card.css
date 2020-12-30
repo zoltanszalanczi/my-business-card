@@ -174,3 +174,11 @@ ul {
 li {
   display: inline;
 }
+
+@media screen and (min-width:801px) {
+    font-size:2rem;
+}
+  
+  @media screen and (min-width:1501px) {
+    font-size:2rem
+}
